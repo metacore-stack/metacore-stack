@@ -58,22 +58,32 @@
 <table align="center" width="100%" cellpadding="10">
   <tr>
     <td width="50%" valign="top" style="background: #282a36; border-radius:12px; padding:12px; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-      <h4>🎣 AI Bait</h4>
-      <p>“AI” as bait attracting Full-Stack & Mobile fish — a metaphor for unifying technologies.</p>
+      <h4>🎣 epicurean-roulette</h4>
+      <p>An effortlessly playful dinner picker that spins your cravings into tonight’s menu delight.</p>
     </td>
     <td width="50%" valign="top" style="background: #282a36; border-radius:12px; padding:12px; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-      <h4>🧬 DevOps Autopilot</h4>
-      <p>LLM-based assistant automating PR reviews, deployments, and changelogs.</p>
+      <h4>🧬 auroraledger-media-portal</h4>
+      <p>Nuxt.js-powered client enabling the ALIS community to publish, curate, and reward blockchain-backed articles.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top" style="background: #282a36; border-radius:12px; padding:12px; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-      <h4>📱 Vision Native</h4>
-      <p>On-device object recognition with React Native + PyTorch Mobile.</p>
+      <h4>📱 etherpulse-conversation</h4>
+      <p>An AI-native chatbot framework that blends Puter’s serverless cloud with your custom workflows for instant, browser-ready conversational apps.</p>
     </td>
     <td width="50%" valign="top" style="background: #282a36; border-radius:12px; padding:12px; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
-      <h4>🧠 LangFlow Studio</h4>
-      <p>Visual workflow composer for LLM & agent chains.</p>
+      <h4>🧠 adaptive-ai-covid19-detection</h4>
+      <p>Adaptive radiology toolkit that trains and evaluates state-of-the-art detectors on SIIM-FISABIO-RSNA chest imaging to flag COVID-19 patterns with transparent metrics.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="background: #282a36; border-radius:12px; padding:12px; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
+      <h4>📱 multitarget-emergency-response</h4>
+      <p>Tracks multiple survivors and hazards in real time using smart vision to guide rescue teams when every second counts.</p>
+    </td>
+    <td width="50%" valign="top" style="background: #282a36; border-radius:12px; padding:12px; box-shadow:0 5px 15px rgba(0,0,0,0.3);">
+      <h4>🧠 neural-realtime-face-snapshot</h4>
+      <p>Real-time desktop suite that fuses MTCNN detection with FaceNet embeddings to capture, catalog, and recognize faces from live video or benchmark datasets.</p>
     </td>
   </tr>
 </table>
