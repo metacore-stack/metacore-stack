@@ -14,11 +14,6 @@
 
 <hr style="border:0; height:2px; background:linear-gradient(to right, #50fa7b, #8be9fd); margin:20px 0;" />
 
-<!-- GITHUB TROPHY -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=satomune-dev&theme=onedark&row=1&margin-w=8&margin-h=8" alt="GitHub Trophy" />
-</p>
-
 <!-- ABOUT ME -->
 <h2 align="center" style="margin-top:40px; color:#ff79c6;">🚀 About Me</h2>
 <div align="center" style="max-width:800px; text-align:left; margin:auto;">
