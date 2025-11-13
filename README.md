@@ -34,48 +34,53 @@
   </ul>
 </div>
 
-<!-- 🧩 TECH STACK - MODERN CARD DESIGN -->
+<!-- 🧩 TECH STACK - IMAGE EMPHASIS STYLE -->
 <h2 align="center" style="color:#ffb86c; margin-top:50px;">🧩 Tech Stack</h2>
 
-<div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px; max-width:900px; margin:auto;">
+<div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:25px; max-width:1000px; margin:auto;">
 
-  <!-- AI / ML Card -->
-  <div style="background:linear-gradient(135deg,#6272a4,#bd93f9); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
-    <h4 style="color:#f8f8f2; margin-bottom:12px;">🧠 AI / ML</h4>
-    <p>
-      <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,langchain,openai" alt="AI / ML" style="width:32px; margin:4px;" />
-    </p>
-    <p style="color:#f8f8f2; font-size:0.9em;">PyTorch · TensorFlow · LangChain · OpenAI API · RAG · Hugging Face</p>
+  <!-- AI / ML -->
+  <div style="text-align:center; width:180px; margin-bottom:20px;">
+    <h4 style="color:#f8f8f2;">🧠 AI / ML</h4>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/openai/openai-original.svg" width="60" style="margin:5px;" />
+    <p style="color:#f8f8f2; font-size:0.9em;">PyTorch · TensorFlow · LangChain · OpenAI API</p>
   </div>
 
-  <!-- Web Card -->
-  <div style="background:linear-gradient(135deg,#50fa7b,#8be9fd); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
-    <h4 style="color:#282a36; margin-bottom:12px;">💻 Web</h4>
-    <p>
-      <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,typescript,fastapi" alt="Web" style="width:32px; margin:4px;" />
-    </p>
-    <p style="color:#282a36; font-size:0.9em;">React · Next.js · Node.js · TypeScript · FastAPI</p>
+  <!-- Web -->
+  <div style="text-align:center; width:180px; margin-bottom:20px;">
+    <h4 style="color:#282a36;">💻 Web</h4>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="60" style="margin:5px;" />
+    <p style="color:#282a36; font-size:0.9em;">React · Next.js · Node.js · TypeScript</p>
   </div>
 
-  <!-- Mobile Card -->
-  <div style="background:linear-gradient(135deg,#ff79c6,#ffb86c); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
-    <h4 style="color:#282a36; margin-bottom:12px;">📱 Mobile</h4>
-    <p>
-      <img src="https://skillicons.dev/icons?i=react,androidstudio,kotlin,swift,expo" alt="Mobile" style="width:32px; margin:4px;" />
-    </p>
+  <!-- Mobile -->
+  <div style="text-align:center; width:180px; margin-bottom:20px;">
+    <h4 style="color:#ff79c6;">📱 Mobile</h4>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" width="60" style="margin:5px;" />
     <p style="color:#282a36; font-size:0.9em;">React Native · Kotlin · Swift · Expo</p>
   </div>
 
-  <!-- Cloud / DevOps Card -->
-  <div style="background:linear-gradient(135deg,#8be9fd,#50fa7b); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
-    <h4 style="color:#282a36; margin-bottom:12px;">☁️ Cloud / DevOps</h4>
-    <p>
-      <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,vercel" alt="Cloud" style="width:32px; margin:4px;" />
-    </p>
-    <p style="color:#282a36; font-size:0.9em;">AWS · GCP · Docker · Kubernetes · Vercel · CI/CD</p>
+  <!-- Cloud / DevOps -->
+  <div style="text-align:center; width:180px; margin-bottom:20px;">
+    <h4 style="color:#8be9fd;">☁️ Cloud / DevOps</h4>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gcp/gcp-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="60" style="margin:5px;" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="60" style="margin:5px;" />
+    <p style="color:#282a36; font-size:0.9em;">AWS · GCP · Docker · Kubernetes · CI/CD</p>
   </div>
 
 </div>
+
 
 
 <!-- CERTIFICATIONS -->
