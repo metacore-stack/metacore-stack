@@ -37,10 +37,7 @@
 <!-- SKILLS ICON GRID -->
 <h2 align="center" style="color:#ffb86c; margin-top:40px;">🧩 Tech Stack</h2>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" alt="AI / ML" />
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,typescript,fastapi" alt="Web" />
-  <img src="https://skillicons.dev/icons?i=react,androidstudio,kotlin,swift,expo" alt="Mobile" />
-  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,vercel" alt="Cloud / DevOps" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,androidstudio,typescript,javascript,python,pytorch,tensorflow,fastapi,nodejs,express,mongodb,postgresql,aws,firebase,vercel,figma,docker,git" alt="Web" />
 </p>
 
 
