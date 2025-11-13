@@ -34,60 +34,99 @@
   </ul>
 </div>
 
-<!-- 🧩 TECH STACK - FLEX HORIZONTAL STYLE -->
-<h2 align="center" style="color:#ffb86c; margin-top:50px;">🧩 Tech Stack</h2>
+<!-- ⚙️ TECH STACK - SPECIAL UI EDITION -->
+<h2 align="center" style="color:#ffb86c; margin-top:50px;">⚙️ Tech Stack</h2>
 
-<div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; max-width:1000px; margin:auto;">
+<div align="center" style="
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:stretch;
+  gap:25px;
+  margin-top:25px;
+  max-width:1000px;
+  margin:auto;
+">
 
-  <!-- AI / ML -->
-  <div style="flex: 1 1 200px; text-align:center; margin-bottom:20px;">
-    <h4 style="color:#f8f8f2;">🧠 AI / ML</h4>
-    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:8px;">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/openai/openai-original.svg" width="50" />
+  <!-- CARD: AI / ML -->
+  <div style="
+    background:linear-gradient(135deg, #7b2ff7, #f107a3);
+    border-radius:20px;
+    width:230px;
+    padding:20px 15px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.3);
+    text-align:center;
+    transition:all 0.3s ease;
+  ">
+    <h3 style="color:white; margin-bottom:10px;">🧠 AI / ML</h3>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px;">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/openai/openai-original.svg" width="48" height="48" />
     </div>
-    <p style="color:#f8f8f2; font-size:0.9em; margin-top:6px;">PyTorch · TensorFlow · LangChain · OpenAI API</p>
+    <p style="color:white; font-size:0.85em; margin-top:10px;">LangChain · PyTorch · TensorFlow · OpenAI API</p>
   </div>
 
-  <!-- Web -->
-  <div style="flex: 1 1 200px; text-align:center; margin-bottom:20px;">
-    <h4 style="color:#282a36;">💻 Web</h4>
-    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:8px;">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="50" />
+  <!-- CARD: Web -->
+  <div style="
+    background:linear-gradient(135deg, #00c6ff, #0072ff);
+    border-radius:20px;
+    width:230px;
+    padding:20px 15px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.3);
+    text-align:center;
+  ">
+    <h3 style="color:white; margin-bottom:10px;">💻 Web</h3>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px;">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="48" height="48" />
     </div>
-    <p style="color:#282a36; font-size:0.9em; margin-top:6px;">React · Next.js · Node.js · TypeScript</p>
+    <p style="color:white; font-size:0.85em; margin-top:10px;">React · Next.js · Node.js · TypeScript</p>
   </div>
 
-  <!-- Mobile -->
-  <div style="flex: 1 1 200px; text-align:center; margin-bottom:20px;">
-    <h4 style="color:#ff79c6;">📱 Mobile</h4>
-    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:8px;">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" width="50" />
+  <!-- CARD: Mobile -->
+  <div style="
+    background:linear-gradient(135deg, #ff512f, #dd2476);
+    border-radius:20px;
+    width:230px;
+    padding:20px 15px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.3);
+    text-align:center;
+  ">
+    <h3 style="color:white; margin-bottom:10px;">📱 Mobile</h3>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px;">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" width="48" height="48" />
     </div>
-    <p style="color:#282a36; font-size:0.9em; margin-top:6px;">React Native · Kotlin · Swift · Expo</p>
+    <p style="color:white; font-size:0.85em; margin-top:10px;">React Native · Kotlin · Swift</p>
   </div>
 
-  <!-- Cloud / DevOps -->
-  <div style="flex: 1 1 200px; text-align:center; margin-bottom:20px;">
-    <h4 style="color:#8be9fd;">☁️ Cloud / DevOps</h4>
-    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:8px;">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gcp/gcp-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="50" />
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="50" />
+  <!-- CARD: Cloud / DevOps -->
+  <div style="
+    background:linear-gradient(135deg, #43cea2, #185a9d);
+    border-radius:20px;
+    width:230px;
+    padding:20px 15px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.3);
+    text-align:center;
+  ">
+    <h3 style="color:white; margin-bottom:10px;">☁️ Cloud / DevOps</h3>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px;">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gcp/gcp-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48" height="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="48" height="48" />
     </div>
-    <p style="color:#282a36; font-size:0.9em; margin-top:6px;">AWS · GCP · Docker · Kubernetes · CI/CD</p>
+    <p style="color:white; font-size:0.85em; margin-top:10px;">AWS · GCP · Docker · Kubernetes</p>
   </div>
 
 </div>
+
 
 
 
