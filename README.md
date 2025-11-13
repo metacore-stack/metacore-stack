@@ -34,14 +34,49 @@
   </ul>
 </div>
 
-<!-- SKILLS ICON GRID -->
-<h2 align="center" style="color:#ffb86c; margin-top:40px;">🧩 Tech Stack</h2>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,langchain,openai" alt="AI / ML" />
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,typescript,fastapi" alt="Web" />
-  <img src="https://skillicons.dev/icons?i=react,androidstudio,kotlin,swift,expo" alt="Mobile" />
-  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,vercel" alt="Cloud / DevOps" />
-</p>
+<!-- 🧩 TECH STACK - MODERN CARD DESIGN -->
+<h2 align="center" style="color:#ffb86c; margin-top:50px;">🧩 Tech Stack</h2>
+
+<div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px; max-width:900px; margin:auto;">
+
+  <!-- AI / ML Card -->
+  <div style="background:linear-gradient(135deg,#6272a4,#bd93f9); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
+    <h4 style="color:#f8f8f2; margin-bottom:12px;">🧠 AI / ML</h4>
+    <p>
+      <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,langchain,openai" alt="AI / ML" style="width:32px; margin:4px;" />
+    </p>
+    <p style="color:#f8f8f2; font-size:0.9em;">PyTorch · TensorFlow · LangChain · OpenAI API · RAG · Hugging Face</p>
+  </div>
+
+  <!-- Web Card -->
+  <div style="background:linear-gradient(135deg,#50fa7b,#8be9fd); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
+    <h4 style="color:#282a36; margin-bottom:12px;">💻 Web</h4>
+    <p>
+      <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,typescript,fastapi" alt="Web" style="width:32px; margin:4px;" />
+    </p>
+    <p style="color:#282a36; font-size:0.9em;">React · Next.js · Node.js · TypeScript · FastAPI</p>
+  </div>
+
+  <!-- Mobile Card -->
+  <div style="background:linear-gradient(135deg,#ff79c6,#ffb86c); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
+    <h4 style="color:#282a36; margin-bottom:12px;">📱 Mobile</h4>
+    <p>
+      <img src="https://skillicons.dev/icons?i=react,androidstudio,kotlin,swift,expo" alt="Mobile" style="width:32px; margin:4px;" />
+    </p>
+    <p style="color:#282a36; font-size:0.9em;">React Native · Kotlin · Swift · Expo</p>
+  </div>
+
+  <!-- Cloud / DevOps Card -->
+  <div style="background:linear-gradient(135deg,#8be9fd,#50fa7b); border-radius:15px; padding:20px; width:200px; box-shadow:0 8px 20px rgba(0,0,0,0.3); text-align:center;">
+    <h4 style="color:#282a36; margin-bottom:12px;">☁️ Cloud / DevOps</h4>
+    <p>
+      <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,vercel" alt="Cloud" style="width:32px; margin:4px;" />
+    </p>
+    <p style="color:#282a36; font-size:0.9em;">AWS · GCP · Docker · Kubernetes · Vercel · CI/CD</p>
+  </div>
+
+</div>
+
 
 <!-- CERTIFICATIONS -->
 <h2 align="center" style="margin-top:40px; color:#8be9fd;">🏆 Certifications</h2>
