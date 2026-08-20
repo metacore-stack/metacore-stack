@@ -1,44 +1,51 @@
 <div align="center">
 
-<img width="100%" src="./assets/metacore-banner.svg" alt="Metacore Stack — intelligence, systems, security" />
+<img src="./assets/metacore-core.png" width="100%" alt="Metacore Stack computational core" />
+
+<br />
+
+# METACORE STACK
+
+### Architecting intelligence. Engineering reality.
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;pause=1100&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=820&amp;lines=Engineering+intelligence+into+real-world+systems;Multi-agent+AI+%E2%80%A2+Full-stack+platforms+%E2%80%A2+Security;From+neural+models+to+production+infrastructure" alt="Metacore Stack animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&amp;weight=700&amp;size=20&amp;duration=3200&amp;pause=900&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=AI+systems+that+reason;Platforms+engineered+to+scale;Security+woven+into+every+layer;One+stack.+Infinite+possibilities." alt="Animated Metacore Stack capabilities" />
 </a>
 
 <p>
-  <a href="https://github.com/metacore-stack?tab=repositories"><img src="https://img.shields.io/badge/Explore-Open%20Source-22D3EE?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=0B1020" alt="Explore Metacore Stack repositories" /></a>
-  <a href="https://github.com/metacore-stack?tab=followers"><img src="https://img.shields.io/github/followers/metacore-stack?style=for-the-badge&amp;logo=github&amp;color=8B5CF6&amp;labelColor=0B1020" alt="GitHub followers" /></a>
-  <img src="https://komarev.com/ghpvc/?username=metacore-stack&amp;style=for-the-badge&amp;color=14B8A6&amp;label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://github.com/metacore-stack?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_THE_STACK-0B1220?style=for-the-badge&amp;logo=github&amp;logoColor=38BDF8" alt="Explore the Metacore Stack" /></a>
+  <a href="https://github.com/metacore-stack?tab=followers"><img src="https://img.shields.io/github/followers/metacore-stack?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;label=FOLLOW&amp;color=6D28D9" alt="Follow Metacore Stack" /></a>
+  <img src="https://img.shields.io/badge/SYSTEM-BUILDING-059669?style=for-the-badge&amp;logo=statuspage&amp;logoColor=white" alt="System status: building" />
 </p>
 
 </div>
 
-## `> system.identity`
+<br />
 
-**Metacore Stack** engineers intelligent systems where AI, applications, data,
-and infrastructure operate as one cohesive platform.
+> **Metacore Stack** is an independent engineering identity exploring the point
+> where machine intelligence, production software, data, and security become
+> one connected system.
 
-The work here spans production AI orchestration, secure full-stack platforms,
-real-time analytics, privacy-first edge intelligence, and applied machine
-learning across finance, healthcare, education, and cybersecurity.
+<br />
 
-```text
-MISSION  Build systems that reason, scale, and remain dependable.
-METHOD   Connect research-grade intelligence to production-grade engineering.
-FOCUS    AI systems · Full-stack architecture · Security · Cloud infrastructure
-```
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>◈ INTELLIGENCE</h3>
+      <p>Multi-agent systems<br />RAG and semantic search<br />Vision and speech AI<br />Predictive intelligence</p>
+    </td>
+    <td width="34%" align="center" valign="top">
+      <h3>⬡ ENGINEERING</h3>
+      <p>Distributed platforms<br />Real-time applications<br />API ecosystems<br />Cloud-native infrastructure</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>◇ RESILIENCE</h3>
+      <p>Secure architecture<br />Privacy-first systems<br />Observability and control<br />Production reliability</p>
+    </td>
+  </tr>
+</table>
 
-## `> core.capabilities`
-
-| Domain | Engineering focus |
-|:--|:--|
-| **AI Systems** | Multi-agent orchestration, RAG, LLM applications, computer vision, speech intelligence |
-| **Platform Engineering** | Python services, TypeScript applications, APIs, background processing, real-time systems |
-| **Data & Intelligence** | Vector search, predictive analytics, streaming pipelines, explainable ML, visualization |
-| **Security & Operations** | Secure architecture, access control, observability, containers, CI/CD, cloud deployment |
-
-## `> technology.matrix`
+## The Stack
 
 <div align="center">
 
@@ -46,72 +53,59 @@ FOCUS    AI systems · Full-stack architecture · Security · Cloud infrastructu
 
 </div>
 
-## `> selected.systems`
+## Flagship Systems
 
-| System | What it demonstrates | Core technologies |
-|:--|:--|:--|
-| **[ApexAnalytics](https://github.com/metacore-stack/ApexAnalytics)** | Multi-agent financial intelligence with real-time market analytics and portfolio workflows | LangGraph, Next.js, TypeScript, MongoDB |
-| **[ApexDialogue](https://github.com/metacore-stack/ApexDialogue)** | Production conversational AI with vector search, background jobs, and containerized services | Django REST, Next.js, LangChain, pgvector, Celery |
-| **[AuraVoice](https://github.com/metacore-stack/AuraVoice)** | Privacy-first, on-device meeting intelligence for transcription and summarization | Python, Whisper, Llama, edge AI |
-| **[HealthIntelligence](https://github.com/metacore-stack/HealthIntelligence)** | Medical imaging and clinical prediction with explainable deep learning | PyTorch, 3D U-Net, DenseNet, SHAP |
-| **[Cybersecurity Intelligence Platform](https://github.com/metacore-stack/cybersecurity-intelligence-platform)** | ML-assisted vulnerability research and aviation attack-scenario simulation | Python, machine learning, security analytics |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/metacore-stack/ApexAnalytics">ApexAnalytics</a></h3>
+      <p>A multi-agent financial intelligence platform connecting market data, AI reasoning, portfolio workflows, and real-time analysis.</p>
+      <p><code>LangGraph</code> <code>Next.js</code> <code>TypeScript</code> <code>MongoDB</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/metacore-stack/ApexDialogue">ApexDialogue</a></h3>
+      <p>A production conversational AI platform with vector memory, background processing, and containerized application services.</p>
+      <p><code>Django REST</code> <code>LangChain</code> <code>pgvector</code> <code>Celery</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/metacore-stack/AuraVoice">AuraVoice</a></h3>
+      <p>Privacy-first meeting intelligence that performs multilingual transcription and intelligent summarization on-device.</p>
+      <p><code>Python</code> <code>Whisper</code> <code>Llama</code> <code>Edge AI</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/metacore-stack/HealthIntelligence">HealthIntelligence</a></h3>
+      <p>Medical imaging and clinical prediction with segmentation, pathology detection, risk modeling, and explainability.</p>
+      <p><code>PyTorch</code> <code>3D U-Net</code> <code>DenseNet</code> <code>SHAP</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/metacore-stack/cybersecurity-intelligence-platform">Cybersecurity Intelligence Platform</a></h3>
+      <p>Machine-learning-assisted vulnerability research and attack-scenario simulation for complex aviation systems.</p>
+      <p><code>Python</code> <code>Machine Learning</code> <code>Security Analytics</code> <code>Simulation</code></p>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-
-**[View all repositories →](https://github.com/metacore-stack?tab=repositories)**
-
-</div>
-
-## `> live.telemetry`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=metacore-stack&amp;show_icons=true&amp;hide_border=true&amp;theme=tokyonight&amp;include_all_commits=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=metacore-stack&amp;show_icons=true&amp;hide_border=true&amp;theme=default&amp;include_all_commits=true" />
-  <img height="175" src="https://github-stats-extended.vercel.app/api?username=metacore-stack&amp;show_icons=true&amp;hide_border=true&amp;theme=tokyonight&amp;include_all_commits=true" alt="Metacore Stack GitHub statistics" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=metacore-stack&amp;layout=compact&amp;hide_border=true&amp;theme=tokyonight&amp;langs_count=8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=metacore-stack&amp;layout=compact&amp;hide_border=true&amp;theme=default&amp;langs_count=8" />
-  <img height="175" src="https://github-stats-extended.vercel.app/api/top-langs?username=metacore-stack&amp;layout=compact&amp;hide_border=true&amp;theme=tokyonight&amp;langs_count=8" alt="Metacore Stack most-used languages" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=metacore-stack&amp;theme=tokyonight&amp;hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=metacore-stack&amp;theme=default&amp;hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=metacore-stack&amp;theme=tokyonight&amp;hide_border=true" alt="Metacore Stack contribution streak" />
-</picture>
-
-</div>
-
-## `> activity.signal`
+<br />
 
 <div align="center">
 
-[![Metacore Stack activity graph](https://github-readme-activity-graph.vercel.app/graph?username=metacore-stack&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true&amp;custom_title=Contribution%20Signal)](https://github.com/metacore-stack)
+### Explore the complete system constellation
 
-</div>
+Every repository is a different expression of the same idea:  
+**intelligence becomes valuable when it is engineered into a dependable system.**
 
-## `> contribution.stream`
+<br />
 
-<div align="center">
+<a href="https://github.com/metacore-stack?tab=repositories">
+  <img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-111827?style=for-the-badge&amp;logo=github&amp;logoColor=38BDF8" alt="View every Metacore Stack repository" />
+</a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/metacore-stack/metacore-stack/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/metacore-stack/metacore-stack/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/metacore-stack/metacore-stack/output/github-contribution-grid-snake.svg" alt="Animated Metacore Stack contribution graph" />
-</picture>
+<br /><br />
 
-</div>
-
----
-
-<div align="center">
-
-### `INTELLIGENCE × ENGINEERING × RELIABILITY`
-
-<sub>Building the connective layer between intelligent models and dependable software.</sub>
+<sub>METACORE STACK · BUILD BEYOND THE MODEL</sub>
 
 </div>
