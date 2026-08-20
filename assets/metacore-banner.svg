@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Metacore Stack</title>
+  <desc id="desc">Animated technology banner representing artificial intelligence, full-stack engineering, and cybersecurity.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B17">
+        <animate attributeName="stop-color" values="#070B17;#11103A;#070B17" dur="9s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="0.52" stop-color="#101A35">
+        <animate attributeName="stop-color" values="#101A35;#082B35;#101A35" dur="11s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#07121E" />
+    </linearGradient>
+
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" />
+      <stop offset="0.5" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#14B8A6" />
+    </linearGradient>
+
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.8" />
+      <stop offset="0.25" stop-color="#8B5CF6" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#6E7FA6" stroke-opacity="0.09" stroke-width="1" />
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="318" rx="24" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#background)" />
+    <rect width="1200" height="320" fill="url(#grid)" />
+
+    <circle cx="105" cy="70" r="210" fill="url(#orb)" opacity="0.46">
+      <animate attributeName="cx" values="105;190;105" dur="13s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.35;0.58;0.35" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1080" cy="250" r="250" fill="url(#orb)" opacity="0.32">
+      <animate attributeName="cy" values="250;195;250" dur="15s" repeatCount="indefinite" />
+    </circle>
+
+    <g fill="none" stroke="url(#brand)" stroke-width="1.4" stroke-opacity="0.5" stroke-dasharray="7 13">
+      <path d="M52 228H220L282 166H407" />
+      <path d="M788 88H946L1014 154H1160" />
+      <path d="M830 240H967L1020 194H1147" />
+      <animate attributeName="stroke-dashoffset" values="0;-80" dur="6s" repeatCount="indefinite" />
+    </g>
+
+    <g fill="#22D3EE" filter="url(#glow)">
+      <circle cx="52" cy="228" r="4"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" repeatCount="indefinite" /></circle>
+      <circle cx="282" cy="166" r="4"><animate attributeName="opacity" values="1;0.25;1" dur="3.1s" repeatCount="indefinite" /></circle>
+      <circle cx="946" cy="88" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite" /></circle>
+      <circle cx="1020" cy="194" r="4"><animate attributeName="opacity" values="1;0.25;1" dur="3.4s" repeatCount="indefinite" /></circle>
+      <circle cx="1147" cy="240" r="4"><animate attributeName="r" values="3;6;3" dur="2.2s" repeatCount="indefinite" /></circle>
+    </g>
+
+    <g transform="translate(82 70)">
+      <path d="M0 18V0H18M0 52v18h18M70 18V0H52M70 52v18H52" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" />
+      <path d="M22 24l13-8 13 8v16l-13 8-13-8z" fill="#0E1930" stroke="url(#brand)" stroke-width="2" />
+      <circle cx="35" cy="32" r="5" fill="#22D3EE" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+      <text x="600" y="133" fill="#F8FAFC" font-size="58" font-weight="800" letter-spacing="7">METACORE</text>
+      <text x="600" y="183" fill="url(#brand)" font-size="30" font-weight="700" letter-spacing="14">STACK</text>
+      <text x="600" y="220" fill="#9FB1CF" font-size="15" font-weight="500" letter-spacing="3">INTELLIGENCE · SYSTEMS · SECURITY</text>
+    </g>
+
+    <g transform="translate(337 255)" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+      <g transform="translate(0)">
+        <rect width="120" height="32" rx="16" fill="#22D3EE" fill-opacity="0.09" stroke="#22D3EE" stroke-opacity="0.45" />
+        <text x="60" y="21" fill="#A5F3FC">AI SYSTEMS</text>
+      </g>
+      <g transform="translate(136)">
+        <rect width="132" height="32" rx="16" fill="#8B5CF6" fill-opacity="0.10" stroke="#8B5CF6" stroke-opacity="0.5" />
+        <text x="66" y="21" fill="#DDD6FE">FULL-STACK</text>
+      </g>
+      <g transform="translate(284)">
+        <rect width="112" height="32" rx="16" fill="#14B8A6" fill-opacity="0.10" stroke="#14B8A6" stroke-opacity="0.5" />
+        <text x="56" y="21" fill="#99F6E4">SECURITY</text>
+      </g>
+      <g transform="translate(412)">
+        <rect width="112" height="32" rx="16" fill="#38BDF8" fill-opacity="0.09" stroke="#38BDF8" stroke-opacity="0.45" />
+        <text x="56" y="21" fill="#BAE6FD">CLOUD</text>
+      </g>
+    </g>
+
+    <rect x="-260" y="0" width="220" height="320" fill="url(#brand)" opacity="0.035" transform="skewX(-18)">
+      <animate attributeName="x" values="-260;1450" dur="7s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="none" stroke="url(#brand)" stroke-opacity="0.45" stroke-width="2" />
+</svg>
