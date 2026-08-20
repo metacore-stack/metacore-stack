@@ -1,0 +1,32 @@
+name: Animated GitHub profile dashboard
+
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Generate animated profile cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate animated GitHub summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 0
+          EXCLUDE: ""
+          AUTO_PUSH: true
+          THEME: "github_dark"
+          ANIMATION: "load"
+          DURATION: "4"
+          NAME: "METACORE STACK"
