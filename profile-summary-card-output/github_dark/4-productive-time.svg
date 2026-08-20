@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="220" viewBox="0 0 440 220" role="img" aria-labelledby="title desc">
+  <title id="title">Productive time awaiting first sync</title>
+  <desc id="desc">Animated placeholder until live Metacore Stack activity timing is generated.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071622"/><stop offset="1" stop-color="#0f172a"/></linearGradient><linearGradient id="a"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient></defs>
+  <rect x="1" y="1" width="438" height="218" rx="16" fill="url(#g)" stroke="#30363d" stroke-width="2"/>
+  <text x="28" y="40" fill="#7dd3fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="2">SIGNAL 04</text>
+  <text x="28" y="70" fill="#f8fafc" font-family="Inter,Segoe UI,sans-serif" font-size="21" font-weight="700">Activity Window</text>
+  <g transform="translate(96 128)">
+    <circle r="48" fill="none" stroke="#1e293b" stroke-width="8"/>
+    <circle r="48" fill="none" stroke="url(#a)" stroke-width="8" stroke-linecap="round" stroke-dasharray="90 212"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/></circle>
+    <circle r="5" fill="#f8fafc"/>
+    <path d="M0 0V-27M0 0L20 12" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(180 105)"><rect width="232" height="7" rx="3.5" fill="#1e293b"/><rect y="25" width="184" height="7" rx="3.5" fill="#1e293b"/><rect y="50" width="126" height="7" rx="3.5" fill="#1e293b"/><rect width="68" height="7" rx="3.5" fill="#34d399" opacity=".65"><animate attributeName="width" values="45;210;45" dur="4s" repeatCount="indefinite"/></rect></g>
+  <text x="180" y="190" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">TIME SIGNAL CALIBRATING</text>
+</svg>

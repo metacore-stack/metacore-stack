@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="220" viewBox="0 0 440 220" role="img" aria-labelledby="title desc">
+  <title id="title">Commit languages awaiting first sync</title>
+  <desc id="desc">Animated placeholder until live Metacore Stack commit languages are generated.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1222"/><stop offset="1" stop-color="#19102a"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="5"/></filter></defs>
+  <rect x="1" y="1" width="438" height="218" rx="16" fill="url(#g)" stroke="#30363d" stroke-width="2"/>
+  <text x="28" y="40" fill="#c4b5fd" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="2">SIGNAL 03</text>
+  <text x="28" y="70" fill="#f8fafc" font-family="Inter,Segoe UI,sans-serif" font-size="21" font-weight="700">Commit Languages</text>
+  <g transform="translate(86 130)">
+    <path d="M0 0L70-35L140 0L70 35Z" fill="none" stroke="#8b5cf6" stroke-opacity=".5"/>
+    <path d="M70-35V35M0 0H140" stroke="#38bdf8" stroke-opacity=".25"/>
+    <circle r="8" fill="#a78bfa" filter="url(#b)"><animateMotion path="M0 0L70-35L140 0L70 35L0 0" dur="4s" repeatCount="indefinite"/></circle>
+    <circle r="4" fill="#e0f2fe"><animateMotion path="M0 0L70-35L140 0L70 35L0 0" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+  <g transform="translate(292 104)" fill="#334155"><rect width="120" height="8" rx="4"/><rect y="24" width="95" height="8" rx="4"/><rect y="48" width="72" height="8" rx="4"/></g>
+  <text x="28" y="190" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">LANGUAGE MAP INITIALIZING</text>
+</svg>

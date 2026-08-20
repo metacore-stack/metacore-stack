@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Metacore Stack GitHub signal initializing</title>
+  <desc id="desc">Animated first-sync card shown until the GitHub profile dashboard is generated.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#11102a"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop stop-color="#e0f2fe"/>
+      <stop offset="0.25" stop-color="#38bdf8"/>
+      <stop offset="0.65" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="898" height="258" rx="18" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="258" rx="18" fill="url(#grid)"/>
+  <path d="M18 2H882" stroke="url(#edge)" stroke-width="2" opacity=".9"/>
+
+  <g transform="translate(64 54)">
+    <text fill="#7dd3fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700" letter-spacing="3">METACORE STACK / GITHUB SIGNAL</text>
+    <text y="47" fill="#f8fafc" font-family="Inter,Segoe UI,sans-serif" font-size="30" font-weight="750">Command center is coming online</text>
+    <text y="80" fill="#94a3b8" font-family="Inter,Segoe UI,sans-serif" font-size="15">The first workflow sync will replace this panel with live repository intelligence.</text>
+
+    <g transform="translate(0 116)">
+      <rect width="384" height="34" rx="17" fill="#0b1727" stroke="#38bdf8" stroke-opacity=".35"/>
+      <circle cx="20" cy="17" r="5" fill="#34d399">
+        <animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="37" y="22" fill="#cbd5e1" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">FIRST SYNC PENDING · ACTIONS READY</text>
+    </g>
+  </g>
+
+  <g transform="translate(713 130)" filter="url(#glow)">
+    <circle r="82" fill="none" stroke="#38bdf8" stroke-opacity=".18"/>
+    <circle r="62" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="10 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="39" fill="url(#core)" opacity=".9">
+      <animate attributeName="r" values="34;42;34" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="-62" r="4" fill="#34d399"/>
+    <circle cx="54" cy="31" r="4" fill="#38bdf8"/>
+    <circle cx="-54" cy="31" r="4" fill="#a78bfa"/>
+  </g>
+
+  <rect x="64" y="229" width="772" height="2" rx="1" fill="#1e293b"/>
+  <rect x="64" y="229" width="176" height="2" rx="1" fill="url(#edge)">
+    <animate attributeName="x" values="64;660;64" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

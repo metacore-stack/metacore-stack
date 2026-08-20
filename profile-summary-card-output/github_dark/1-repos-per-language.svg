@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="220" viewBox="0 0 440 220" role="img" aria-labelledby="title desc">
+  <title id="title">Repository languages awaiting first sync</title>
+  <desc id="desc">Animated placeholder until live Metacore Stack repository languages are generated.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081622"/><stop offset="1" stop-color="#10192a"/></linearGradient><linearGradient id="a"><stop stop-color="#34d399"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+  <rect x="1" y="1" width="438" height="218" rx="16" fill="url(#g)" stroke="#30363d" stroke-width="2"/>
+  <text x="28" y="40" fill="#6ee7b7" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="2">SIGNAL 02</text>
+  <text x="28" y="70" fill="#f8fafc" font-family="Inter,Segoe UI,sans-serif" font-size="21" font-weight="700">Repository Languages</text>
+  <rect x="28" y="105" width="384" height="12" rx="6" fill="#172033"/>
+  <rect x="28" y="105" width="90" height="12" rx="6" fill="url(#a)"><animate attributeName="width" values="70;270;70" dur="4.5s" repeatCount="indefinite"/></rect>
+  <g fill="#64748b"><circle cx="34" cy="147" r="4"/><circle cx="142" cy="147" r="4"/><circle cx="250" cy="147" r="4"/><circle cx="358" cy="147" r="4"/></g>
+  <path d="M34 147H358" stroke="#334155" stroke-width="2" stroke-dasharray="3 8"/>
+  <circle cx="34" cy="147" r="5" fill="#34d399"><animate attributeName="cx" values="34;358;34" dur="4.5s" repeatCount="indefinite"/></circle>
+  <text x="28" y="190" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">SCANNING THE REPOSITORY CONSTELLATION</text>
+</svg>

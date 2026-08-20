@@ -1,6 +1,11 @@
 name: Animated GitHub profile dashboard
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-summary.yml"
   schedule:
     - cron: "23 2 * * *"
   workflow_dispatch:
@@ -19,7 +24,7 @@ jobs:
       - name: Generate animated GitHub summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "main"
