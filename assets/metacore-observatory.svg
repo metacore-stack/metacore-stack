@@ -60,7 +60,7 @@
       <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
       <path d="M14 1H146" stroke="url(#edge)" opacity=".72"/>
       <text x="16" y="28" class="label">REPOSITORIES</text>
-      <text x="16" y="64" class="metric">64</text>
+      <text x="16" y="64" class="metric">66</text>
     </g>
     <g transform="translate(230 150)">
       <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
@@ -97,9 +97,9 @@
   
     <g transform="translate(684 168)">
       <text y="-8" class="language">Python</text>
-      <text x="216" y="-8" text-anchor="end" class="percent">34%</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">35%</text>
       <rect width="216" height="7" rx="3.5" fill="#172337"/>
-      <rect width="72.76" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:0ms"/>
+      <rect width="74.9" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:0ms"/>
     </g>
     <g transform="translate(684 207)">
       <text y="-8" class="language">Jupyter Notebook</text>
