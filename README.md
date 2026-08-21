@@ -20,23 +20,17 @@
 
 ---
 
-## GitHub Command Center
+## Engineering Observatory
 
 <div align="center">
 
 <a href="https://github.com/metacore-stack">
-  <img width="100%" src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Animated Metacore Stack GitHub profile status" />
+  <img width="100%" src="./assets/metacore-observatory.svg" alt="Animated Metacore Stack public engineering observatory" />
 </a>
 
 <br />
 
-<img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Metacore Stack GitHub statistics" />
-<img width="49%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Metacore Stack repositories by language" />
-
-<img width="49%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Metacore Stack commit languages" />
-<img width="49%" src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Metacore Stack productive-time activity" />
-
-<sub>Animated on load · refreshed automatically every day · generated inside this repository</sub>
+<sub>Public repository intelligence · identity fields suppressed · synchronized every 24 hours</sub>
 
 </div>
 

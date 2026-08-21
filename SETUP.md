@@ -1,7 +1,8 @@
 # Metacore Stack profile setup
 
-The README uses animated SVG status cards generated directly inside the
-`metacore-stack/metacore-stack` repository. Complete these steps once.
+The README uses one custom animated engineering observatory generated directly
+inside the `metacore-stack/metacore-stack` repository. It never displays a real
+name, email address, contribution calendar, or private activity.
 
 ## 1. Upload the package
 
@@ -10,54 +11,35 @@ Keep the supplied folder structure:
 ```text
 README.md
 assets/metacore-core.png
+assets/metacore-observatory.svg
 .github/workflows/profile-summary.yml
-profile-summary-card-output/github_dark/*.svg
+scripts/generate-observatory.mjs
 ```
 
-The included SVG files are animated first-sync cards, so the profile never
-shows broken images. The workflow replaces them with live GitHub statistics.
+The included SVG is a polished fallback, so the profile looks complete before
+the first workflow run. The workflow replaces its public signals automatically.
 
-## 2. Generate the public dashboard
+## 2. Remove the old generic dashboard
 
-The workflow now runs automatically when `profile-summary.yml` is first added.
-You can also open **Actions → Animated GitHub profile dashboard → Run workflow**.
+Delete `profile-summary-card-output/` from the GitHub repository after the new
+README is active. It is no longer used and may contain identity fields created
+by the previous third-party generator.
+
+## 3. Generate the public observatory
+
+The workflow runs automatically when `profile-summary.yml` or the generator is
+added. You can also open **Actions → Build Metacore Observatory → Run workflow**.
 
 Wait for the green check, then refresh the profile. The workflow replaces the
-first-sync cards in `profile-summary-card-output/github_dark/`, commits the live
-SVG dashboard, and refreshes it daily.
+fallback SVG in `assets/`, commits the live observatory, and refreshes it daily.
+No personal access token or repository secret is required.
 
-## 3. Optional: create a GitHub token for private totals
+If the publish step reports a permission error, open **Settings → Actions →
+General → Workflow permissions**, select **Read and write permissions**, and
+run the workflow again.
 
-Open GitHub **Settings → Developer settings → Personal access tokens →
-Fine-grained tokens** and create a token with an expiration date.
+## Privacy boundary
 
-For public repositories, grant read-only access to public repositories. If you
-want aggregate private-repository activity included, select only the private
-repositories you want counted and grant read-only access to Contents, Issues,
-Pull requests, and Metadata.
-
-Public statistics work with the built-in workflow token. Create this extra
-token only if you want aggregate private-repository activity included. Never
-paste the token into `README.md` or the workflow file.
-
-## 4. Add the optional repository secret
-
-Open the profile repository:
-
-```text
-https://github.com/metacore-stack/metacore-stack/settings/secrets/actions
-```
-
-Select **New repository secret** and create:
-
-```text
-Name:  SUMMARY_GITHUB_TOKEN
-Value: your fine-grained GitHub token
-```
-
-## Optional: include private contribution totals
-
-Open GitHub **Settings → Public profile → Contribution settings**, then enable
-**Include private contributions on my profile**. The generated cards show only
-aggregate totals and language labels; they do not reveal private repository
-names or commit messages.
+The generator reads only public repository metadata. It intentionally ignores
+the profile name, email, biography, location, join date, contributions, commit
+totals, and private repositories.

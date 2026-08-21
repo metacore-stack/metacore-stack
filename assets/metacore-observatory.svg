@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title description">
+  <title id="title">Metacore Stack public engineering observatory</title>
+  <description id="description">Animated public GitHub repository signal with repository totals, language distribution, and leading systems. Personal identity fields are suppressed.</description>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#06101d"/>
+      <stop offset=".52" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#130d26"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset=".5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset=".55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop stop-color="#f0f9ff"/>
+      <stop offset=".18" stop-color="#67e8f9"/>
+      <stop offset=".5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#7dd3fc" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono,.label,.percent,.system{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    .eyebrow{fill:#7dd3fc;font-size:13px;font-weight:700;letter-spacing:3px}.headline{fill:#f8fafc;font-size:27px;font-weight:750}.sub{fill:#8292a8;font-size:13px}
+    .label{fill:#7f91a8;font-size:10px;font-weight:700;letter-spacing:1.7px}.metric{fill:#f8fafc;font-size:28px;font-weight:750}.language{fill:#cbd5e1;font-size:13px}.percent{fill:#64748b;font-size:11px}.system{fill:#a7b5c7;font-size:11px;font-weight:700;letter-spacing:1px}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 16s linear infinite}.spin-reverse{transform-box:fill-box;transform-origin:center;animation:spin 11s linear infinite reverse}
+    .pulse{animation:pulse 2.5s ease-in-out infinite}.bar{transform-box:fill-box;transform-origin:left;animation:reveal 1.3s cubic-bezier(.2,.8,.2,1) both}.scan{animation:scan 5s ease-in-out infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@keyframes reveal{from{transform:scaleX(0)}to{transform:scaleX(1)}}@keyframes scan{0%,100%{transform:translateX(0)}50%{transform:translateX(744px)}}
+    @media (prefers-reduced-motion:reduce){.spin,.spin-reverse,.pulse,.bar,.scan{animation:none}}
+  </style>
+  <rect x="1" y="1" width="998" height="458" rx="20" fill="url(#background)" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="458" rx="20" fill="url(#grid)"/>
+  <path d="M22 2H978" stroke="url(#edge)" stroke-width="2"/>
+
+  <text x="52" y="48" class="eyebrow">METACORE STACK / PUBLIC SIGNAL</text>
+  <text x="52" y="79" class="headline">Engineering Observatory</text>
+  <text x="52" y="99" class="sub">Live repository intelligence with personal identity fields suppressed.</text>
+  <g transform="translate(824 42)">
+    <rect width="126" height="32" rx="16" fill="#09231f" stroke="#34d399" stroke-opacity=".45"/>
+    <circle cx="18" cy="16" r="5" fill="#34d399" class="pulse"/>
+    <text x="34" y="20" class="system" fill="#a7f3d0">SIGNAL ONLINE</text>
+  </g>
+
+  <rect x="36" y="100" width="372" height="248" rx="18" fill="#080f1a" fill-opacity=".74" stroke="#243349"/>
+  <text x="52" y="133" class="label">PUBLIC NETWORK METRICS</text>
+  
+    <g transform="translate(52 150)">
+      <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
+      <path d="M14 1H146" stroke="url(#edge)" opacity=".72"/>
+      <text x="16" y="28" class="label">REPOSITORIES</text>
+      <text x="16" y="64" class="metric">62</text>
+    </g>
+    <g transform="translate(230 150)">
+      <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
+      <path d="M14 1H146" stroke="url(#edge)" opacity=".72"/>
+      <text x="16" y="28" class="label">TOTAL STARS</text>
+      <text x="16" y="64" class="metric">233</text>
+    </g>
+    <g transform="translate(52 254)">
+      <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
+      <path d="M14 1H146" stroke="url(#edge)" opacity=".72"/>
+      <text x="16" y="28" class="label">VISIBILITY</text>
+      <text x="16" y="64" class="metric">PUBLIC</text>
+    </g>
+    <g transform="translate(230 254)">
+      <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
+      <path d="M14 1H146" stroke="url(#edge)" opacity=".72"/>
+      <text x="16" y="28" class="label">REFRESH</text>
+      <text x="16" y="64" class="metric">24H</text>
+    </g>
+
+  <g transform="translate(522 224)" filter="url(#glow)">
+    <circle r="105" fill="none" stroke="#38bdf8" stroke-opacity=".1"/>
+    <circle r="82" fill="none" stroke="#38bdf8" stroke-opacity=".35" stroke-dasharray="18 12" class="spin"/>
+    <circle r="62" fill="none" stroke="#a78bfa" stroke-opacity=".55" stroke-dasharray="5 11" class="spin-reverse"/>
+    <circle r="44" fill="url(#core)" class="pulse"/>
+    <circle cy="-82" r="5" fill="#34d399"/>
+    <circle cx="71" cy="41" r="5" fill="#38bdf8"/>
+    <circle cx="-71" cy="41" r="5" fill="#a78bfa"/>
+  </g>
+  <text x="522" y="218" text-anchor="middle" class="label" fill="#e0f2fe">CORE</text>
+
+  <rect x="652" y="100" width="312" height="248" rx="18" fill="#080f1a" fill-opacity=".74" stroke="#243349"/>
+  <text x="684" y="133" class="label">LANGUAGE VECTOR / PUBLIC REPOS</text>
+  
+    <g transform="translate(684 168)">
+      <text y="-8" class="language">Python</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">43%</text>
+      <rect width="216" height="7" rx="3.5" fill="#172337"/>
+      <rect width="92.02000000000001" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:0ms"/>
+    </g>
+    <g transform="translate(684 207)">
+      <text y="-8" class="language">JavaScript</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">22%</text>
+      <rect width="216" height="7" rx="3.5" fill="#172337"/>
+      <rect width="47.080000000000005" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:120ms"/>
+    </g>
+    <g transform="translate(684 246)">
+      <text y="-8" class="language">TypeScript</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">18%</text>
+      <rect width="216" height="7" rx="3.5" fill="#172337"/>
+      <rect width="38.52" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:240ms"/>
+    </g>
+    <g transform="translate(684 285)">
+      <text y="-8" class="language">Jupyter</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">10%</text>
+      <rect width="216" height="7" rx="3.5" fill="#172337"/>
+      <rect width="24" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:360ms"/>
+    </g>
+    <g transform="translate(684 324)">
+      <text y="-8" class="language">Vue</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">7%</text>
+      <rect width="216" height="7" rx="3.5" fill="#172337"/>
+      <rect width="24" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:480ms"/>
+    </g>
+
+  <path d="M52 376H948" stroke="#263449"/>
+  <rect x="52" y="375" width="152" height="2" rx="1" fill="url(#edge)" class="scan"/>
+  <text x="52" y="394" class="label">LEADING SYSTEMS</text>
+  
+    <g transform="translate(52 411)">
+      <circle cx="7" cy="-4" r="4" fill="#38bdf8" class="pulse" style="animation-delay:0ms"/>
+      <text x="20" class="system">AI INTELLIGENCE</text>
+    </g>
+    <g transform="translate(348 411)">
+      <circle cx="7" cy="-4" r="4" fill="#a78bfa" class="pulse" style="animation-delay:450ms"/>
+      <text x="20" class="system">PLATFORM SYSTEMS</text>
+    </g>
+    <g transform="translate(644 411)">
+      <circle cx="7" cy="-4" r="4" fill="#34d399" class="pulse" style="animation-delay:900ms"/>
+      <text x="20" class="system">SECURE AUTOMATION</text>
+    </g>
+  <text x="948" y="436" text-anchor="end" class="percent">FIRST LIVE SYNC READY</text>
+</svg>
