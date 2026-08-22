@@ -60,7 +60,7 @@
       <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
       <path d="M14 1H146" stroke="url(#edge)" opacity=".72"/>
       <text x="16" y="28" class="label">REPOSITORIES</text>
-      <text x="16" y="64" class="metric">66</text>
+      <text x="16" y="64" class="metric">68</text>
     </g>
     <g transform="translate(230 150)">
       <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
@@ -103,9 +103,9 @@
     </g>
     <g transform="translate(684 207)">
       <text y="-8" class="language">Jupyter Notebook</text>
-      <text x="216" y="-8" text-anchor="end" class="percent">22%</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">21%</text>
       <rect width="216" height="7" rx="3.5" fill="#172337"/>
-      <rect width="47.080000000000005" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:120ms"/>
+      <rect width="44.940000000000005" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:120ms"/>
     </g>
     <g transform="translate(684 246)">
       <text y="-8" class="language">TypeScript</text>
@@ -142,5 +142,5 @@
       <circle cx="7" cy="-4" r="4" fill="#34d399" class="pulse" style="animation-delay:900ms"/>
       <text x="20" class="system">ADAPTIVE-AI-COVID19-DET…</text>
     </g>
-  <text x="948" y="436" text-anchor="end" class="percent">SYNCHRONIZED 2026-08-21 UTC</text>
+  <text x="948" y="436" text-anchor="end" class="percent">SYNCHRONIZED 2026-08-22 UTC</text>
 </svg>
