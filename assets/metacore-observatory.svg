@@ -60,7 +60,7 @@
       <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
       <path d="M14 1H146" stroke="url(#edge)" opacity=".72"/>
       <text x="16" y="28" class="label">REPOSITORIES</text>
-      <text x="16" y="64" class="metric">68</text>
+      <text x="16" y="64" class="metric">69</text>
     </g>
     <g transform="translate(230 150)">
       <rect width="160" height="86" rx="14" fill="#0b1524" stroke="#243349"/>
@@ -97,9 +97,9 @@
   
     <g transform="translate(684 168)">
       <text y="-8" class="language">Python</text>
-      <text x="216" y="-8" text-anchor="end" class="percent">35%</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">37%</text>
       <rect width="216" height="7" rx="3.5" fill="#172337"/>
-      <rect width="74.9" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:0ms"/>
+      <rect width="79.18" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:0ms"/>
     </g>
     <g transform="translate(684 207)">
       <text y="-8" class="language">Jupyter Notebook</text>
@@ -109,13 +109,13 @@
     </g>
     <g transform="translate(684 246)">
       <text y="-8" class="language">TypeScript</text>
-      <text x="216" y="-8" text-anchor="end" class="percent">15%</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">14%</text>
       <rect width="216" height="7" rx="3.5" fill="#172337"/>
-      <rect width="32.1" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:240ms"/>
+      <rect width="29.96" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:240ms"/>
     </g>
     <g transform="translate(684 285)">
       <text y="-8" class="language">Swift</text>
-      <text x="216" y="-8" text-anchor="end" class="percent">11%</text>
+      <text x="216" y="-8" text-anchor="end" class="percent">10%</text>
       <rect width="216" height="7" rx="3.5" fill="#172337"/>
       <rect width="24" height="7" rx="3.5" fill="url(#signal)" class="bar" style="animation-delay:360ms"/>
     </g>
@@ -142,5 +142,5 @@
       <circle cx="7" cy="-4" r="4" fill="#34d399" class="pulse" style="animation-delay:900ms"/>
       <text x="20" class="system">ADAPTIVE-AI-COVID19-DET…</text>
     </g>
-  <text x="948" y="436" text-anchor="end" class="percent">SYNCHRONIZED 2026-08-27 UTC</text>
+  <text x="948" y="436" text-anchor="end" class="percent">SYNCHRONIZED 2026-08-28 UTC</text>
 </svg>
